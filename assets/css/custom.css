@@ -1,5 +1,27 @@
+.event-banner {
+    position: relative;
+    text-align: center;
+    color: black;
+    /* background-image: url('../img/event.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+    opacity: 0.9; */
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+}
+
 .organiser-img {
     display: flex;
+    width: 100%;
     justify-content: space-around;
     align-items: center;
     /* flex-direction: row; */
@@ -25,15 +47,6 @@
 .social a {
     font-size: 3rem;
     padding: 0 2rem;
-}
-
-.event-banner {
-    background-image: url('../img/event.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 90vh;
-    width: 100%;
 }
 
 @media screen and (max-width: 1024px) {

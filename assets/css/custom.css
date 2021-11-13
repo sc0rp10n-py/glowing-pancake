@@ -1,0 +1,13 @@
+.organiser-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+
+/* @media screen and (max-width: 1024px) {
+    .organiser-img {
+        flex-direction: column;
+    }
+} */

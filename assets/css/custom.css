@@ -6,6 +6,18 @@
     flex-wrap: wrap;
 }
 
+.organisers {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    max-height: 100px;
+}
+
+.text-li {
+    font-size: 2rem;
+    line-height: 5rem;
+}
+
 .social-list {
     margin-top: 5rem;
 }
@@ -15,10 +27,17 @@
     padding: 0 2rem;
 }
 
+.event-banner {
+    background-image: url('../img/event.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+}
 
-
-/* @media screen and (max-width: 1024px) {
-    .organiser-img {
-        flex-direction: column;
+@media screen and (max-width: 1024px) {
+    .text-li {
+        font-size: 1.5rem;
     }
-} */
+}

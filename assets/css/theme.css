@@ -231,7 +231,7 @@ body.boxed {
 }
 .wide .page-section.color,
 .boxed .page-section.color > .container {
-    background-color: #dc143c;
+    background-color: #47692E;
     color: #ffffff;
 }
 .wide .page-section.call-action,
@@ -719,7 +719,7 @@ hr.page-divider.large {
     color: #ffffff;
 }
 .color .btn-theme {
-    color: #dc143c;
+    color: #47692E;
     background-color: #ffffff;
     border-color: #ffffff;
 }
@@ -4599,7 +4599,7 @@ footer.post-meta .post-categories {display: block;}
     line-height: 30px;
 }
 .container.gmap-background .on-gmap.color {
-    background-color: #dc143c;
+    background-color: #47692E;
     color: #fefefe;
 }
 

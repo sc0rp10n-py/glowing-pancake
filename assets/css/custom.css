@@ -6,6 +6,17 @@
     flex-wrap: wrap;
 }
 
+.social-list {
+    margin-top: 5rem;
+}
+
+.social a {
+    font-size: 3rem;
+    padding: 0 2rem;
+}
+
+
+
 /* @media screen and (max-width: 1024px) {
     .organiser-img {
         flex-direction: column;
